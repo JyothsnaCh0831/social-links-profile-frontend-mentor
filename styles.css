@@ -1,0 +1,106 @@
+/* Fonts */
+@font-face {
+    font-family: Inter-Regular;
+    src: url('./assets/fonts/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url('./assets/fonts/static/Inter-SemiBold.ttf');
+}
+
+
+/* Body */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter-Regular;
+    font-size: 14px;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+/* Card */
+.card {
+    width: 22%;
+    padding: 2%;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-top: 1rem;
+}
+
+.card .intro #name {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.card .intro #location {
+    font-size: 11px;
+    font-family: Inter-SemiBold;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.4rem;
+}
+
+.card .intro #about {
+    font-size: 11px;
+    color: hsl(0, 0%, 100%, 0.7);
+    margin-top: 1.5rem;
+}
+
+.card .social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card .social-links ul li {
+    font-family: Inter-SemiBold;
+    font-size: 12px;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 0.3rem;
+}
+
+.card .social-links ul li:hover {
+    background-color: hsl(0, 0%, 20%, 0.5);
+    font-size: 14px;
+}
+
+/* Attribution */
+.attribution {
+    margin-top: 1rem;
+}
+
+/* Media Query */
+@media (max-width: 375px) {
+    .card {
+        width: 90%;
+        padding: 0.8rem;
+        margin: 0 2rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 800px) {
+    .card {
+        width: 50%;
+    }
+}
