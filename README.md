@@ -15,7 +15,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Get Here](https://github.com/JyothsnaCh0831/social-links-profile-frontend-mentor)
-- Live Site URL: [View Here](https://your-live-site-url.com)
+- Live Site URL: [View Here](https://jyothsnach0831.github.io/social-links-profile-frontend-mentor/)
 
 ## My process
 
